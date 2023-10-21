@@ -8,4 +8,4 @@ for i in range(months):
     money_capital += spend - salary
     spend += spend * increase
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital, 2))
